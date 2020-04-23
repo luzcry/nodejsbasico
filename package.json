@@ -1,0 +1,29 @@
+{
+  "name": "nodebasico",
+  "version": "1.0.0",
+  "description": "curso node",
+  "main": "asyncawait.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luzcry/nodejsbasico.git"
+  },
+  "author": "maria rodriguez",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/luzcry/nodejsbasico/issues"
+  },
+  "homepage": "https://github.com/luzcry/nodejsbasico#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "is-odd": "^3.0.1",
+    "moment": "^2.24.0",
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
