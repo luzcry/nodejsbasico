@@ -5,7 +5,10 @@
   "main": "asyncawait.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "start": "electron",
+    "build": "gulp build",
+    "serve": "gulp serve"
   },
   "repository": {
     "type": "git",
@@ -20,8 +23,12 @@
   "homepage": "https://github.com/luzcry/nodejsbasico#readme",
   "dependencies": {
     "bcrypt": "^4.0.1",
+    "electron": "^8.2.3",
+    "gulp": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
     "is-odd": "^3.0.1",
     "moment": "^2.24.0",
+    "puppeteer": "^3.0.1",
     "sharp": "^0.25.2"
   },
   "devDependencies": {},
